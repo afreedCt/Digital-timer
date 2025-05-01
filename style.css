@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+  background-color:graytext;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:90vh;
+  width:100%;
+}
+.timer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border:1px solid white;
+  height:150px;
+  width:400px;
+}
+ h1{
+  font-size:55px;
+  font-weight:bold;
+  color:white;
+  padding:10px;
+  font-family:'Courier New', Courier, monospace;
+}
+.timer span{
+  font-size:60px;
+  font-weight:bold;
+  color:white;
+  padding:10px;
+}
